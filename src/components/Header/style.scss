@@ -1,0 +1,73 @@
+
+@import 'src/assets/style/variables.scss';
+.all-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #25282a;
+    padding: 10px 30px;
+
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    h1 {
+        color: $yellow;
+    }
+
+    span {
+        background-color: $yellow;
+        color: #25282a;
+    }
+}
+
+.menu a {
+    text-decoration: none;
+    color: $white;
+}
+
+.menu a.active {
+    color: $yellow;
+}
+
+.menu a:hover {
+    color: $yellow;
+}
+
+.menu-title {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu-right {
+
+    ul {
+        gap: 20px;
+        list-style: none;
+        color: $yellow;
+
+        li {
+            gap: 10px;
+
+            span {
+                font-size: 25px;
+            }
+        }
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
